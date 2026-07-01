@@ -1,0 +1,9 @@
+flask
+flask-cors
+requests
+pycryptodome
+PyJWT
+protobuf
+psutil
+urllib3
+protobuf-decoder
