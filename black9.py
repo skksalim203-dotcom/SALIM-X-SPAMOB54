@@ -214,7 +214,7 @@ def openroom(K, V):
             1: 1,
             2: 15,
             3: 5,
-            4: "[B][C][00FFFF]LIMON",          # <-- changed line
+            4: "[B][C][00FFFF]S A L I M",          # <-- changed line
             5: "1",
             6: 12,
             7: 1,
