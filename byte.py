@@ -115,7 +115,7 @@ def xBunnEr():
     return random.choice(bN)
 
 def xSEndMsg(Msg , Tp , Tp2 , id , K , V):
-    feilds = {1: id, 2: Tp2, 3: Tp, 4: Msg , 5: 1735129800, 7: 2, 9: {1: "RIZER", 2: xBunnEr(), 3: 901048018, 4: 330, 5: 909034009, 8: "RIZER", 10: 1, 11: 1, 14: {1: 1158053040, 2: 8, 3: "\u0010\u0015\b\n\u000b\u0015\f\u000f\u0011\u0004\u0007\u0002\u0003\r\u000e\u0012\u0001\u0005\u0006"}}, 10: "en", 13: {2: 1, 3: 1}, 14: {}}
+    feilds = {1: id, 2: Tp2, 3: Tp, 4: Msg , 5: 1735129800, 7: 2, 9: {1: "KAWSAR", 2: xBunnEr(), 3: 901048018, 4: 330, 5: 909034009, 8: "KAWSAR", 10: 1, 11: 1, 14: {1: 1158053040, 2: 8, 3: "\u0010\u0015\b\n\u000b\u0015\f\u000f\u0011\u0004\u0007\u0002\u0003\r\u000e\u0012\u0001\u0005\u0006"}}, 10: "en", 13: {2: 1, 3: 1}, 14: {}}
     Pk = str(CrEaTe_ProTo(feilds).hex())
     Pk = "080112" + EnC_Uid(len(Pk) // 2 , Tp = 'Uid') + Pk
     return GeneRaTePk(str(Pk) , '1215' , K , V)
@@ -151,7 +151,7 @@ def openroom(K, V):
             1: 1,  
             2: 15, 
             3: 5,
-            4: "RIZER",
+            4: "[b][00ffff]KAWSAR",
             5: "1",
             6: 12,
             7: 1,

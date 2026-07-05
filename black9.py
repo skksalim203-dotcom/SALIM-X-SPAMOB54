@@ -209,12 +209,12 @@ def spmroom(K, V, uid):
 
 def openroom(K, V):
     fields = {
-        1: 2,
-        2: {
-            1: 1,
-            2: 15,
+        1: 2,  # ✅ Integer key
+        2: {   # ✅ Integer key
+            1: 1,  # ✅ Integer key
+            2: 15, # ✅ Integer key
             3: 5,
-            4: "[B][C][00FFFF]S A L I M",          # <-- changed line
+            4: "KAWSAR",
             5: "1",
             6: 12,
             7: 1,
@@ -402,7 +402,7 @@ def Zix1(self, player_id, key, iv):
         4: 50,
         5: {
             1: int(player_id),
-            2: "[00FFFF]LIMON BOT V1",
+            2: "[00FF00]KAWSAR BOT V1",
             3: 1
         }
     }
