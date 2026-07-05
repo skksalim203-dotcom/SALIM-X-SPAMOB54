@@ -1,3 +1,1 @@
-# SMART MONITORED UIDs - Status based auto spam
-# Example:
-8391125385
+6583676156
