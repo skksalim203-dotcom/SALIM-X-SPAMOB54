@@ -1,5 +1,6 @@
 Flask
 requests
+protobuf-decoder
 urllib3
 pycryptodome
 protobuf
