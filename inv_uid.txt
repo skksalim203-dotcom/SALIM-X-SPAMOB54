@@ -1,4 +1,2 @@
-# ACTIVE TARGETS - These UIDs will be spammed directly
-# Example:
-# 1234567890
-# 0987654321
+# Target UIDs, one per line
+7557492546

@@ -1,1 +1,3 @@
-6583676156
+# SMART MONITORED UIDs - Status based auto spam
+# Example:
+

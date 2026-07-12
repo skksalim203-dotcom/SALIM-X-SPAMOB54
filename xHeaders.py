@@ -49,13 +49,13 @@ def GeT_Name(uid , Token):
     url = "https://clientbp.common.ggbluefox.com/GetPlayerPersonalShow"
     headers = {
         'X-Unity-Version': '2018.4.11f1',
-        'ReleaseVersion': 'OB53',
+        'ReleaseVersion': 'OB51',
         'Content-Type': 'application/x-www-form-urlencoded',
         'X-GA': 'v1 1',
         'Authorization': f'Bearer {Token}',
         'Content-Length': '16',
         'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.2; ASUS_Z01QD Build/QKQ1.190825.002)',
-        'Host': 'clientbp.ggblueshark.com',
+        'Host': 'clientbp.ggpolarbear.com',
         'Connection': 'Keep-Alive',
         'Accept-Encoding': 'gzip'
     }
@@ -74,13 +74,13 @@ def GeT_PLayer_InFo(uid , Token):
     url = "https://clientbp.common.ggbluefox.com/GetPlayerPersonalShow"
     headers = {
         'X-Unity-Version': '2018.4.11f1',
-        'ReleaseVersion': 'OB53',
+        'ReleaseVersion': 'OB51',
         'Content-Type': 'application/x-www-form-urlencoded',
         'X-GA': 'v1 1',
         'Authorization': f'Bearer {Token}',
         'Content-Length': '16',
         'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.2; ASUS_Z01QD Build/QKQ1.190825.002)',
-        'Host': 'clientbp.ggblueshark.com',
+        'Host': 'clientbp.ggpolarbear.com',
         'Connection': 'Keep-Alive',
         'Accept-Encoding': 'gzip'}
     response = requests.post(url , headers=headers , data=data ,verify=False)
@@ -156,13 +156,13 @@ def DeLet_Uid(id , Tok):
     url = 'https://clientbp.common.ggbluefox.com/RemoveFriend'
     headers = {
         'X-Unity-Version': '2018.4.11f1',
-        'ReleaseVersion': 'OB53',
+        'ReleaseVersion': 'OB51',
         'Content-Type': 'application/x-www-form-urlencoded',
         'X-GA': 'v1 1',
         'Authorization': f'Bearer {Tok}',
         'Content-Length': '16',
         'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.2; ASUS_Z01QD Build/QKQ1.190825.002)',
-        'Host': 'clientbp.ggblueshark.com',
+        'Host': 'clientbp.ggpolarbear.com',
         'Connection': 'Keep-Alive',
         'Accept-Encoding': 'gzip'}
     data = bytes.fromhex(EnC_AEs(f"08a7c4839f1e10{EnC_Uid(id , Tp = 'Uid')}"))
